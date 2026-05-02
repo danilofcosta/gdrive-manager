@@ -116,6 +116,3 @@ await deleteDriveItem(drive, 'ID_DO_ARQUIVO', { permanent: true });
 | `updateDriveFile(...)` | Atualiza o conteúdo ou nome de um arquivo. |
 | `deleteDriveItem(...)` | Remove arquivos ou pastas. |
 
-## 📄 Licença
-
-ISC
