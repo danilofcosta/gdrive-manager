@@ -1,0 +1,36 @@
+{
+  "name": "gdrive-manager",
+  "version": "1.0.0",
+  "description": "Um módulo simples e eficiente para gerenciar arquivos e pastas no Google Drive usando TypeScript.",
+  "main": "index.ts",
+  "module": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "dev": "tsx index.ts",
+    "upload": "tsx create.ts",
+    "up": "tsx up.ts"
+  },
+  "keywords": [
+    "google-drive",
+    "google-api",
+    "typescript",
+    "upload",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/mime-types": "^3.0.1",
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "googleapis": "^171.4.0",
+    "mime-types": "^3.0.2"
+  },
+  "exports": {
+    ".": "./index.ts"
+  }
+}

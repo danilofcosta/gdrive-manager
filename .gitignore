@@ -1,0 +1,21 @@
+# Credentials
+token.json
+client_secret.json
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Data
+.DS_Store
+Thumbs.db
+node_modules/
