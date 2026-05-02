@@ -1,4 +1,4 @@
-# gdrive-manager 🚀
+# gdrive-manager 
 
 Um módulo simples e eficiente para gerenciar arquivos e pastas no Google Drive usando TypeScript.
 
