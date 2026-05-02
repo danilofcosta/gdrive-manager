@@ -12,6 +12,10 @@ const TOKEN_PATH = path.join(process.cwd(), 'token.json');
 const CREDENTIALS_PATH = path.join(process.cwd(), 'client_secret.json');
 
 export async function authorize() {
+  if (!fs.existsSync(CREDENTIALS_PATH)) {
+    throw new Error(`❌ Arquivo de credenciais não encontrado em: ${CREDENTIALS_PATH}. Por favor, baixe o client_secret.json do Google Cloud Console.`);
+  }
+
   const content = fs.readFileSync(CREDENTIALS_PATH, 'utf8');
   const credentials = JSON.parse(content);
 
